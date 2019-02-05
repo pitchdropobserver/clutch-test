@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	font-family: Arial;
+	font-weight: 100;
+	font-size: 12px;
+}
+
+#container-app {
+	display: flex;	
+}
+
+
+#container-filters {
+	width: 150px;
+
+}
+.filters-car-price input {
+	width: 100%;
+	border-style: solid;
+}
+.filters-car-price input:focus {
+	outline: none;	
+}
+.filters-car-make-container {
+	font-size: 16px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+}
+
+
+#container-grid {
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.card-container {
+	margin: 5px;
+	flex: 1 0 31%;
+	border: 2px solid #ddd;
+}
+.card-label-container {
+}
+.card-label-price {
+	color: blue;
+	float: right;
+}
+.card-label-make {
+
+
+}
+.card-label-model {
+
+
+}
+.card-photo {
+	width: 100%;
+	cursor: pointer;
+}
+
+
+
+.btn-filter {
+
+
+}
